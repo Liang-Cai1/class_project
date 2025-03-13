@@ -60,6 +60,36 @@
         color: #28470c;
         text-size: 100pt;
       }
-      
+    #skills {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2em;
+        
+    }    
+    .skill {
+        flex: 1;
+        margin: 1em;
+        text-align: center;
+        padding: 1em;
+        border-radius: 8px;
     }
-  
+    
+        /* Responsive Design */
+    @media screen and (max-width: 600px) {
+      .container {
+          padding: 10px;
+      }
+
+      .title {
+          font-size: 1.5em;
+      }
+
+      .subtitle {
+          font-size: 1em;
+      }
+
+      .img {
+          margin-top: 10px;
+      }
+  }
